@@ -6,7 +6,6 @@ function addcommitpush () {
 
 	echo "Push? (y/n)"
 	read -i "y" -e yn
-	git push
 
 	if [ "$yn" = y ]; then
 		git push
